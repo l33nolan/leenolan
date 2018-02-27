@@ -1,0 +1,80 @@
+#process {
+
+  background: linear-gradient(rgba(31, 40, 51, 0.7), rgba(31, 40, 51, 0.8)), url('../img/board_sm.jpg') no-repeat;
+  background-size: cover;
+  background-position: 50% 0;
+  background-attachment: fixed;
+
+  @media (min-width: 576px) {
+    background: linear-gradient(rgba(31, 40, 51, 0.7), rgba(31, 40, 51, 0.8)), url('../img/board_lg.jpg') no-repeat;
+    background-size: cover;
+    background-position: 50% 0;
+    background-attachment: fixed;
+  }
+
+}
+
+.process-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.process-item {
+  min-width: 300px;
+  width: 300px;
+  height: 200px;
+  margin-top: 20px;
+  overflow: hidden;
+  position: relative;
+
+  .process-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 200;
+    min-width: 300px;
+    width: 300px;
+    height: 200px;
+    background-color: rgba(31, 40, 51, 0.1);
+    transition: background-color 0.5s 0.5s;
+
+    h5 {
+      margin-bottom: 0;
+      padding: 15px 0 0 20px;
+      opacity: 0;
+      transition: opacity 1s 0.5s;
+    }
+
+    p {
+      font-size: 0.8rem;
+      margin-bottom: 0;
+      padding-left: 20px;
+      padding-right: 20px;
+      opacity: 0;
+      transition: opacity 1s 0.5s;
+    }
+
+  }
+
+  img {
+    transition: transform .5s cubic-bezier(0.7, -0.4, .3, 1.4);
+  }
+
+  .process-overlay:hover {
+    background-color: rgba(31, 40, 51, 0.85);
+  }
+
+  .process-overlay:hover + img {
+    transform: scale(1.2);
+  }
+
+  .process-overlay:hover p, .process-overlay:hover h5 {
+    opacity: 1;
+  }
+
+}
+
+
+
+

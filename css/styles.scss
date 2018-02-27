@@ -1,0 +1,109 @@
+
+// Colour and font variables
+$blackColour: #0b0c10;
+$darkColour: #1f2833;
+$textColour: #c5c6c7;
+$headingColour: #66fcf1;
+$borderColour: #45a29e;
+$navHighlight: #d1fefa;
+
+// Partial Imports
+@import "callout";
+@import "nav";
+@import "projects";
+@import "process";
+@import "contact";
+@import "footer";
+@import "modal";
+
+
+// General Styles
+body {
+  background-color: $darkColour;
+  color: $textColour;
+}
+
+h1, h5 {
+  font-family: 'Lato', sans-serif;
+  color: $headingColour;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  color: $textColour;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+}
+
+
+// responsive padding adjustments
+
+#projects,
+#process,
+#contact {
+
+  padding: 40px 20px;
+
+  @media (min-width: 576px) {
+    padding: 40px 30px 40px 30px;
+  }
+
+  @media (min-width: 768px) {
+    padding: 68px 50px 68px 50px;
+  }
+
+  @media (min-width: 992px) {
+    padding: 68px 140px 68px 140px;
+  }
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+
+// Button styling (override bootstrap classes)
+
+.btn-outline-primary {
+  font-family: 'Lato', sans-serif;
+  border-color: $borderColour;
+  color: $headingColour;
+  margin-bottom: 10px;
+}
+
+.btn-outline-primary:hover {
+  background-color: $borderColour;
+  transition: 0.4s ease-in;
+}
+
+.btn-outline-primary.focus, .btn-outline-primary:focus {
+  box-shadow: none;
+
+}
+
+.btn-outline-primary.disabled, .btn-outline-primary:disabled {
+  color: $borderColour;
+  background-color: transparent
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled).active, .btn-outline-primary:not(:disabled):not(.disabled):active, .show > .btn-outline-primary.dropdown-toggle {
+  color: $textColour;
+  background-color: $borderColour;
+  border-color: $borderColour;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled).active:focus, .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-outline-primary.dropdown-toggle:focus {
+  box-shadow: none;
+}
+
+
+
+
+
+
+

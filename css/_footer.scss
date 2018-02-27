@@ -1,0 +1,55 @@
+footer {
+
+  // responsive padding adjustments - overrides for footer
+
+  padding: 20px 20px;
+
+  @media (min-width: 576px) {
+    padding: 20px 30px 20px 30px;
+  }
+
+  @media (min-width: 768px) {
+    padding: 20px 50px 20px 50px;
+  }
+
+  @media (min-width: 992px) {
+    padding: 20px 140px 20px 140px;
+  }
+
+  background-color: $darkColour;
+
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .copyright {
+    text-align: center;
+  }
+
+  .social {
+    text-align: right;
+
+    img {
+      width: 50px;
+      height: 50px;
+      padding-left: 10px;
+    }
+  }
+
+  // stack footer items on mobile
+  @media (max-width: 767px) {
+    .social {
+      text-align: center;
+    }
+
+    ul {
+      text-align: center;
+    }
+
+  }
+
+}
+
+
+

@@ -1,0 +1,14 @@
+.modal-header,
+.modal-body,
+.modal-footer {
+  background-color: $darkColour;
+}
+
+.close {
+  color: $headingColour;
+  opacity: 1;
+}
+
+.close:hover {
+  color: $navHighlight;
+}
