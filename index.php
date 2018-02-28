@@ -358,7 +358,7 @@
                 </form>
             </div>
             <div class="modal-footer">
-                <button id="send_enquiry" value="Send" type="submit" class="btn-lg btn-outline-primary">Send</button>
+                <button id="send_email" value="Send" type="submit" class="btn-lg btn-outline-primary">Send</button>
                 <button type="button" class="btn-lg btn-outline-primary" data-dismiss="modal">Close</button>
             </div>
         </div>
@@ -374,7 +374,7 @@
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>
 <script src="js/bootstrap.min.js" crossorigin="anonymous"></script>
-<script src="js/nav.js"></script>
+<script src="js/nav.js" crossorigin="anonymous"></script>
 
 </body>
 </html>

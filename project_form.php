@@ -49,7 +49,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // SendGrid settings and config
     $from = new SendGrid\Email("leenolan.me","leenolan79@icloud.com");
-    $subject = "Lee, you have a quick contact website enquiry!";
+    $subject = "Lee, you have a website project enquiry!";
     $to = new SendGrid\Email(null, "leenolan79@icloud.com");
     $content = new SendGrid\Content("text/html", $emailBody);
     $mail = new SendGrid\Mail($from, $subject, $to, $content);
