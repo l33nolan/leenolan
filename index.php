@@ -35,7 +35,7 @@
 
 <!--main navigation (large devices)-->
 
-<nav id="main-nav">
+<nav id="main-nav" style="display: none">
     <a href="#callout">Home</a>
     <a href="#projects">Projects</a>
     <a href="#process">Process</a>
