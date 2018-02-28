@@ -38,7 +38,7 @@
 <!--main navigation (large devices)-->
 
 <nav id="main-nav">
-    <a class="hideOnLoad" href="#callout">Home</a>
+    <a class="hideOnLoad" href="#callout">Hoooooooooooooooome!</a>
     <a class="hideOnLoad" href="#projects">Projects</a>
     <a class="hideOnLoad" href="#process">Process</a>
     <a class="hideOnLoad" href="#contact">Contact</a>
