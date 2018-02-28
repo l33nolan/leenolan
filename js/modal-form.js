@@ -1,32 +1,32 @@
 $(function() {
 
     // Get the form.
-    var form = $('#project-form');
+    var modalForm = $('#project-form');
 
     // Get the alerts divs
-    var formSuccess = $('#modal-form-success');
-    var formError = $('#modal-form-error');
+    var modalFormSuccess = $('#modal-form-success');
+    var modalFormError = $('#modal-form-error');
 
     // hide alerts initially
-    formSuccess.hide();
-    formError.hide();
+    modalFormSuccess.hide();
+    modalFormError.hide();
 
 
-    $(form).submit(function(event) {
+    $(modalForm).submit(function(event) {
         // Stop the browser from submitting the form.
         event.preventDefault();
 
         // Serialize the form data.
-        var formData = $(form).serialize();
+        var modalFormData = $(modalForm).serialize();
 
         // Submit the form using AJAX.
         $.ajax({
             type: 'POST',
-            url: $(form).attr('action'),
-            data: formData
+            url: $(modalForm).attr('action'),
+            data: modalFormData
         }).done(function() {
             // Show the success alert
-            $(formSuccess).show();
+            $(modalFormSuccess).show();
 
             // Clear the form.
             $('#name').val('');
@@ -49,7 +49,7 @@ $(function() {
             $('#features').val('');
         }).fail(function() {
             // Show the error alert if something goes wrong
-            $(formError).show();
+            $(modalFormError).show();
 
         });
     });
