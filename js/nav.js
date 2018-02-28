@@ -1,4 +1,4 @@
-$('a').removeClass('hideOnLoad');
+$('.menu-list').removeClass('hideOnLoad');
 
 // grab offset position of project details div for fading calculations later
 

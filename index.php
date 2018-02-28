@@ -20,7 +20,7 @@
 <!--mobile navigation-->
 
 <div class="menu-overlay">
-    <div class="menu-list">
+    <div class="menu-list hideOnLoad">
         <a href="#callout">Home</a>
         <a href="#projects">Projects</a>
         <a href="#process">Process</a>
@@ -38,10 +38,10 @@
 <!--main navigation (large devices)-->
 
 <nav id="main-nav">
-    <a class="hideOnLoad" href="#callout">Hoooooooooooooooome!</a>
-    <a class="hideOnLoad" href="#projects">Projects</a>
-    <a class="hideOnLoad" href="#process">Process</a>
-    <a class="hideOnLoad" href="#contact">Contact</a>
+    <a href="#callout">Home</a>
+    <a href="#projects">Projects</a>
+    <a href="#process">Process</a>
+    <a href="#contact">Contact</a>
 </nav>
 
 
