@@ -247,82 +247,82 @@
                     in the boxes. The more details you can give, the easier it is
                     to start planning the best solution for you! If you just wanted to send a quick message, close this
                     window and use the quick contact form on the main page.</p>
-                <form method="post" action="index.php">
+                <form method="post" action="project_form.php">
 
                     <h5>About You</h5>
 
                     <div class="form-group">
                         <label for="name" class="col-form-label">Your Name</label>
-                        <input type="text" class="form-control" id="name" required>
+                        <input type="text" class="form-control" id="name" name="name" required>
                     </div>
 
                     <div class="form-group">
                         <label for="email" class="col-form-label">Your Email</label>
-                        <input type="email" class="form-control" id="email" required>
+                        <input type="email" class="form-control" id="email" name="email" required>
                     </div>
 
                     <div class="form-group">
                         <label for="number" class="col-form-label">Contact Number</label>
-                        <input type="tel" class="form-control" id="number">
+                        <input type="tel" class="form-control" id="number" name="number">
                     </div>
 
                     <div class="form-group">
                         <label for="business" class="col-form-label">Tell me a bit about your business</label>
-                        <textarea class="form-control" id="business" rows="4"></textarea>
+                        <textarea class="form-control" id="business" name="business" rows="4"></textarea>
                     </div>
 
                     <div class="form-group">
                         <label for="competitors" class="col-form-label">Who are your main competitors?</label>
-                        <textarea class="form-control" id="competitors" rows="4"></textarea>
+                        <textarea class="form-control" id="competitors" name="competitors" rows="4"></textarea>
                     </div>
 
                     <div class="form-group">
                         <label for="url" class="col-form-label">Current website URL (if you have one!)</label>
-                        <input type="text" class="form-control" id="url">
+                        <input type="text" class="form-control" id="url" name="url">
                     </div>
 
                     <h5>About The Project</h5>
 
                     <div class="form-group">
                         <label for="like" class="col-form-label">What DO you like about your current site?</label>
-                        <textarea class="form-control" id="like" rows="4"></textarea>
+                        <textarea class="form-control" id="like" name="like" rows="4"></textarea>
                     </div>
 
                     <div class="form-group">
                         <label for="notlike" class="col-form-label">What DON'T you like about your current site?</label>
-                        <textarea class="form-control" id="notlike" rows="4"></textarea>
+                        <textarea class="form-control" id="notlike" name="notlike" rows="4"></textarea>
                     </div>
 
                     <div class="form-group">
                         <label for="admire" class="col-form-label">Which websites do you most admire and why?</label>
-                        <textarea class="form-control" id="admire" rows="4"></textarea>
+                        <textarea class="form-control" id="admire" name="admire" rows="4"></textarea>
                     </div>
 
                     <div class="form-group">
                         <label for="golive" class="col-form-label">When do you hope to have your new site live?</label>
-                        <input type="text" class="form-control" id="golive">
+                        <input type="text" class="form-control" id="golive" name="golive">
                     </div>
 
                     <div class="form-group">
                         <label for="budget" class="col-form-label">Do you have a budget for this project?</label>
-                        <input type="text" class="form-control" id="budget">
+                        <input type="text" class="form-control" id="budget" name="budget">
                     </div>
 
                     <div class="form-group">
                         <label for="look" class="col-form-label">How do you want your website to look and feel? (Modern?
                             Minimal? Colourful? Flashy?) </label>
-                        <textarea class="form-control" id="look" rows="4"></textarea>
+                        <textarea class="form-control" id="look" name="look" rows="4"></textarea>
                     </div>
 
                     <div class="form-group">
                         <label for="aim" class="col-form-label">What is the aim/purpose of your new website?</label>
-                        <textarea class="form-control" id="aim" rows="4"></textarea>
+                        <textarea class="form-control" id="aim" name="aim" rows="4"></textarea>
                     </div>
 
                     <div class="form-group">
                         <label for="users" class="col-form-label">What do you want users to do when they visit your
                             website?</label>
-                        <textarea class="form-control" id="users" rows="4"></textarea>
+                        <textarea class="form-control" id="users" name="users" rows="4"></textarea>
                     </div>
 
                     <h5>Design and Content</h5>
@@ -330,26 +330,26 @@
                     <div class="form-group">
                         <label for="content" class="col-form-label">Do you already have content for your website? (copy
                             text, images, videos, etc.)</label>
-                        <textarea class="form-control" id="content" rows="4"></textarea>
+                        <textarea class="form-control" id="content" name="content" rows="4"></textarea>
                     </div>
 
                     <div class="form-group">
                         <label for="branding" class="col-form-label">Do you have brand style guidelines? (Colours, logo,
                             fonts,
                             etc.)</label>
-                        <textarea class="form-control" id="branding" rows="4"></textarea>
+                        <textarea class="form-control" id="branding" name="branding" rows="4"></textarea>
                     </div>
 
                     <div class="form-group">
                         <label for="sections" class="col-form-label">What sections do you need on your website? (About
                             Us? Services? Contact? Blog? </label>
-                        <textarea class="form-control" id="sections" rows="4"></textarea>
+                        <textarea class="form-control" id="sections" name="sections" rows="4"></textarea>
                     </div>
 
                     <div class="form-group">
                         <label for="features" class="col-form-label">What sort of features did you have in mind? (Photo
                             gallery? Twitter feed? Search?)</label>
-                        <textarea class="form-control" id="features" rows="4"></textarea>
+                        <textarea class="form-control" id="features" name="features" rows="4"></textarea>
                     </div>
                     <p>That's everything! Click 'send' and I will get back to you as soon as possible to discuss your
                         needs further and look at putting a project proposal together for you.</p>
@@ -358,7 +358,7 @@
                 </form>
             </div>
             <div class="modal-footer">
-                <button type="submit" class="btn-lg btn-outline-primary">Send</button>
+                <button id="send_enquiry" value="Send" type="submit" class="btn-lg btn-outline-primary">Send</button>
                 <button type="button" class="btn-lg btn-outline-primary" data-dismiss="modal">Close</button>
             </div>
         </div>
