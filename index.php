@@ -185,7 +185,22 @@
         amet.</p>
 
     <div class="form-container">
-        <form method="post" action="form.php">
+
+        <div id="form-success" class="alert alert-success alert-dismissible fade show" role="alert">
+            <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+
+        <div id="form-error" class="alert alert-danger alert-dismissible fade show" role="alert">
+            <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+
+        <form id="quick-contact" method="post" action="form.php">
             <div class="row form-group">
                 <div class="col-md-6 form-group">
                     <input name="name" type="text" class="form-control" placeholder="Your name" id="name" required>
@@ -196,10 +211,11 @@
             </div>
             <div class="row form-group">
                 <div class="col">
-                    <textarea name="message" class="form-control" placeholder="Your message" rows="4" id="message" required></textarea>
+                    <textarea name="message" class="form-control" placeholder="Your message" rows="4" id="message"
+                              required></textarea>
                 </div>
             </div>
-            <button value="Send" type="submit" class="btn-lg btn-outline-primary">Send Message</button>
+            <button type="submit" class="btn-lg btn-outline-primary">Send Message</button>
 
         </form>
 
@@ -375,6 +391,7 @@
         crossorigin="anonymous"></script>
 <script src="js/bootstrap.min.js" crossorigin="anonymous"></script>
 <script src="js/nav.js" crossorigin="anonymous"></script>
+<script src="js/form.js" crossorigin="anonymous"></script>
 
 </body>
 </html>
