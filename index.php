@@ -199,7 +199,7 @@
                     <textarea name="message" class="form-control" placeholder="Your message" rows="4" id="message" required></textarea>
                 </div>
             </div>
-            <button id="send_email" value="Send" type="submit" class="btn-lg btn-outline-primary">Send Message</button>
+            <button value="Send" type="submit" class="btn-lg btn-outline-primary">Send Message</button>
 
         </form>
 
@@ -247,7 +247,7 @@
                     in the boxes. The more details you can give, the easier it is
                     to start planning the best solution for you! If you just wanted to send a quick message, close this
                     window and use the quick contact form on the main page.</p>
-                <form method="post" action="project_form.php">
+                <form id="project-form" method="post" action="project_form.php">
 
                     <h5>About You</h5>
 
@@ -358,7 +358,7 @@
                 </form>
             </div>
             <div class="modal-footer">
-                <button id="send_email" value="Send" type="submit" class="btn-lg btn-outline-primary">Send</button>
+                <button form="project-form" value="Send" type="submit" class="btn-lg btn-outline-primary">Send</button>
                 <button type="button" class="btn-lg btn-outline-primary" data-dismiss="modal">Close</button>
             </div>
         </div>

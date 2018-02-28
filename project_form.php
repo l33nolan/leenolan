@@ -27,6 +27,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
     // build email body content
+
     $emailBody = "Name: " . $name . "<br>" .
         "EMail: " . $email . "<br>" .
         "Contact Number: " . $number . "<br>" .
@@ -48,6 +49,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
     // SendGrid settings and config
+
     $from = new SendGrid\Email("leenolan.me","leenolan79@icloud.com");
     $subject = "Lee, you have a website project enquiry!";
     $to = new SendGrid\Email(null, "leenolan79@icloud.com");

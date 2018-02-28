@@ -11,9 +11,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message = trim(filter_input(INPUT_POST, "message", FILTER_SANITIZE_SPECIAL_CHARS));
 
     // build email body content
+
     $emailBody = "From: " . $name . "<br>" . "EMail: " . $email . "<br>" . "Message: " . $message;
 
     // SendGrid settings and config
+
     $from = new SendGrid\Email("leenolan.me","leenolan79@icloud.com");
     $subject = "Lee, you have a quick contact website enquiry!";
     $to = new SendGrid\Email(null, "leenolan79@icloud.com");
