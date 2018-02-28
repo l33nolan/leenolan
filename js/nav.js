@@ -1,6 +1,6 @@
-// grab offset position of project details div for fading calculations later
+$('a').removeClass('hideOnLoad');
 
-$('#main-nav').removeAttr('hidden');
+// grab offset position of project details div for fading calculations later
 
 var projects = $('.url-overlay');
 var offset = projects.offset();

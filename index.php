@@ -37,11 +37,11 @@
 
 <!--main navigation (large devices)-->
 
-<nav id="main-nav" hidden>
-    <a href="#callout">Home</a>
-    <a href="#projects">Projects</a>
-    <a href="#process">Process</a>
-    <a href="#contact">Contact</a>
+<nav id="main-nav">
+    <a class="hideOnLoad" href="#callout">Home</a>
+    <a class="hideOnLoad" href="#projects">Projects</a>
+    <a class="hideOnLoad" href="#process">Process</a>
+    <a class="hideOnLoad" href="#contact">Contact</a>
 </nav>
 
 
