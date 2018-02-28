@@ -187,14 +187,14 @@
     <div class="form-container">
 
         <div id="form-success" class="alert alert-success alert-dismissible fade show" role="alert">
-            <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+            <strong>Thanks!</strong> Your message has been sent. I will get back to you asap!
             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
             </button>
         </div>
 
         <div id="form-error" class="alert alert-danger alert-dismissible fade show" role="alert">
-            <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+            <strong>Woops!</strong> Looks like there is a problem on our server. Try again later.
             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
             </button>
@@ -370,13 +370,29 @@
                     <p>That's everything! Click 'send' and I will get back to you as soon as possible to discuss your
                         needs further and look at putting a project proposal together for you.</p>
 
+                    <div id="modal-form-success" class="alert alert-success alert-dismissible fade show" role="alert">
+                        <strong>Great!</strong> Your enquiry has been sent. I will get back to you asap!
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
 
+                    <div id="modal-form-error" class="alert alert-danger alert-dismissible fade show" role="alert">
+                        <strong>Woops!</strong> Looks like there is a problem on our server. Try again later.
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
                 </form>
+
             </div>
             <div class="modal-footer">
-                <button form="project-form" value="Send" type="submit" class="btn-lg btn-outline-primary">Send</button>
+
+                <button form="project-form" type="submit" class="btn-lg btn-outline-primary">Send</button>
                 <button type="button" class="btn-lg btn-outline-primary" data-dismiss="modal">Close</button>
+
             </div>
+
         </div>
     </div>
 </div>
@@ -392,6 +408,9 @@
 <script src="js/bootstrap.min.js" crossorigin="anonymous"></script>
 <script src="js/nav.js" crossorigin="anonymous"></script>
 <script src="js/form.js" crossorigin="anonymous"></script>
+<script src="js/modal-form.js" crossorigin="anonymous"></script>
+
+
 
 </body>
 </html>

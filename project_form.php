@@ -65,8 +65,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     echo $response->headers();
     echo $response->body();
 
-    header("Location: index.php");
-
-
 }
 
