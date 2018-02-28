@@ -1,13 +1,16 @@
 // grab offset position of project details div for fading calculations later
 
+$('#main-nav').removeAttr('hidden');
+
 var projects = $('.url-overlay');
 var offset = projects.offset();
 
-// menu bar fade-in on devices 768px and over
 
 // hide mobile menu div initially
 $('.menu-list').hide();
 
+
+// menu bar fade-in on devices 768px and over
 // fade in nav bar
 $(function () {
     $(window).scroll(function () {
