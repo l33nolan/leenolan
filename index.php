@@ -185,22 +185,21 @@
         amet.</p>
 
     <div class="form-container">
-        <form>
+        <form method="post" action="form.php">
             <div class="row form-group">
                 <div class="col-md-6 form-group">
-                    <input type="text" class="form-control" placeholder="First name">
+                    <input type="text" class="form-control" placeholder="Your name" id="name" required>
                 </div>
                 <div class="col-md-6 form-group">
-                    <input type="text" class="form-control" placeholder="Last name">
+                    <input type="email" class="form-control" placeholder="Your email" id="email" required>
                 </div>
             </div>
             <div class="row form-group">
                 <div class="col">
-                    <textarea class="form-control" placeholder="Your message" rows="4"></textarea>
+                    <textarea class="form-control" placeholder="Your message" rows="4" id="message" required></textarea>
                 </div>
             </div>
-            <button type="submit" class="btn-lg btn-outline-primary">Send Message</button>
-
+            <button id="send_email" value="Send" type="submit" class="btn-lg btn-outline-primary">Send Message</button>
 
         </form>
 
