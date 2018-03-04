@@ -25,15 +25,26 @@ footer {
 
   .copyright {
     text-align: center;
+    p {
+      padding: 0;
+    }
   }
 
   .social {
     text-align: right;
+    a {
+      padding-left: 5px;
+      margin-bottom: 40px;
+      text-decoration: none;
+      color: $textColour;
+    }
 
-    img {
-      width: 50px;
-      height: 50px;
-      padding-left: 10px;
+    svg {
+      transition: .5s ease-in;
+    }
+
+    svg:hover {
+      color: $headingColour;
     }
   }
 

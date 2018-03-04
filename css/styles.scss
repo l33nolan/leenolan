@@ -1,5 +1,5 @@
 
-// Colour and font variables
+// Colours
 $blackColour: #0b0c10;
 $darkColour: #1f2833;
 $textColour: #c5c6c7;
@@ -15,29 +15,30 @@ $navHighlight: #d1fefa;
 @import "contact";
 @import "footer";
 @import "modal";
+@import "blog";
 
 
 // General Styles
+
 body {
   background-color: $darkColour;
   color: $textColour;
+  max-width: 1440px;
+  font-family: 'Monserrat', sans-serif;
 }
 
 h1, h5 {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Saira', sans-serif;
   color: $headingColour;
 }
 
 p {
-  font-family: 'Roboto', sans-serif;
-  color: $textColour;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
 a {
   text-decoration: none;
-  font-family: 'Lato', sans-serif;
 }
 
 
@@ -70,7 +71,6 @@ a {
 // Button styling (override bootstrap classes)
 
 .btn-outline-primary {
-  font-family: 'Lato', sans-serif;
   border-color: $borderColour;
   color: $headingColour;
   margin-bottom: 10px;

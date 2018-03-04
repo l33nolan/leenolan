@@ -1,9 +1,6 @@
+// this class to be removed, or mobile menu will never show
+
 $('.menu-list').removeClass('hideOnLoad');
-
-// grab offset position of project details div for fading calculations later
-
-var projects = $('.url-overlay');
-var offset = projects.offset();
 
 
 // hide mobile menu div initially
@@ -35,19 +32,6 @@ $(function () {
     });
 
 
-});
-
-
-// fade in project details - uses offset variable declared at top of script and compares to scrollTop
-
-$(function () {
-    $(window).scroll(function () {
-        if (offset.top - $(this).scrollTop() <= 300) {
-            $('.project-detail').fadeIn();
-        } else {
-            $('.project-detail').fadeOut();
-        }
-    });
 });
 
 

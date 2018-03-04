@@ -9,8 +9,10 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" crossorigin="anonymous">
 
     <!--Fonts and custom CSS-->
-    <link href="https://fonts.googleapis.com/css?family=Lato|Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i|Saira" rel="stylesheet">
     <link rel="stylesheet" href="css/styles_compiled.css" crossorigin="anonymous">
+    <script defer src="js/fontawesome.min.js"></script>
+    <script defer src="js/fa-brands.min.js"></script>
 
 
     <title>Lee Nolan</title>
@@ -25,6 +27,7 @@
         <a href="#projects">Projects</a>
         <a href="#process">Process</a>
         <a href="#contact">Contact</a>
+        <a href="blog.php">Blog</a>
     </div>
 </div>
 
@@ -42,6 +45,7 @@
     <a href="#projects">Projects</a>
     <a href="#process">Process</a>
     <a href="#contact">Contact</a>
+    <a href="blog.php">Blog</a>
 </nav>
 
 
@@ -70,7 +74,7 @@
 
         <div class="projects-item">
             <div class="url-overlay">
-                <a href="#"><h5>cindymoody.art</h5></a>
+                <a href="http://www.cindymoody.art" target="_blank"><h5>cindymoody.art</h5></a>
             </div>
             <img src="img/cindymock.jpg">
         </div>
@@ -114,7 +118,7 @@
                     laoreet sit
                     amet.</p>
             </div>
-            <img src="img/research.jpg">
+            <img src="img/goals.jpg">
         </div>
         <div class="process-item">
             <div class="process-overlay">
@@ -238,12 +242,12 @@
             </ul>
         </div>
         <div class="copyright col-md-4">
-            <p class="footer-txt">All rights reserved. Lee Nolan &copy;2018</p>
+            <p>All rights reserved. Lee Nolan &copy;2018</p>
         </div>
         <div class="social col-md-4">
-            <a><img src="img/twitter.svg"></a>
-            <a><img src="img/facebook.svg"></a>
-            <a><img src="img/instagram.svg"></a>
+            <a href="#"><i class="fab fa-github-square fa-3x"></i></a>
+            <a href="#"><i class="fab fa-linkedin fa-3x"></i></a>
+            <a href="#"><i class="fab fa-twitter-square fa-3x"></i></a>
         </div>
     </div>
 </footer>
@@ -407,6 +411,7 @@
         crossorigin="anonymous"></script>
 <script src="js/bootstrap.min.js" crossorigin="anonymous"></script>
 <script src="js/nav.js" crossorigin="anonymous"></script>
+<script src="js/interact.js" crossorigin="anonymous"></script>
 <script src="js/form.js" crossorigin="anonymous"></script>
 <script src="js/modal-form.js" crossorigin="anonymous"></script>
 
