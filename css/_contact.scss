@@ -1,6 +1,14 @@
 #contact {
 
   background-color: $blackColour;
+  a {
+    color: $headingColour;
+    font-size: 1.4rem;
+  }
+
+  a:hover {
+    color: $navHighlight;
+  }
 
 }
 

@@ -27,18 +27,24 @@ body {
   font-family: 'Monserrat', sans-serif;
 }
 
-h1, h5 {
+h1, h3, h5 {
   font-family: 'Saira', sans-serif;
   color: $headingColour;
 }
 
 p {
+  margin-bottom: 0;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
 a {
   text-decoration: none;
+}
+
+a:hover, a:active, a:visited, a:link {
+  text-decoration: none;
+  outline: none;
 }
 
 
@@ -71,35 +77,17 @@ a {
 // Button styling (override bootstrap classes)
 
 .btn-outline-primary {
-  border-color: $borderColour;
+  border: 2px $borderColour solid;
   color: $headingColour;
   margin-bottom: 10px;
 }
 
 .btn-outline-primary:hover {
+  border: 2px $borderColour solid;
   background-color: $borderColour;
   transition: 0.4s ease-in;
 }
 
-.btn-outline-primary.focus, .btn-outline-primary:focus {
-  box-shadow: none;
-
-}
-
-.btn-outline-primary.disabled, .btn-outline-primary:disabled {
-  color: $borderColour;
-  background-color: transparent
-}
-
-.btn-outline-primary:not(:disabled):not(.disabled).active, .btn-outline-primary:not(:disabled):not(.disabled):active, .show > .btn-outline-primary.dropdown-toggle {
-  color: $textColour;
-  background-color: $borderColour;
-  border-color: $borderColour;
-}
-
-.btn-outline-primary:not(:disabled):not(.disabled).active:focus, .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-outline-primary.dropdown-toggle:focus {
-  box-shadow: none;
-}
 
 
 

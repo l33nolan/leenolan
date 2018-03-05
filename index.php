@@ -14,9 +14,9 @@
     <script defer src="js/fontawesome.min.js"></script>
     <script defer src="js/fa-brands.min.js"></script>
 
-
     <title>Lee Nolan</title>
 </head>
+
 <body class="container-fluid">
 
 <!--mobile navigation-->
@@ -51,24 +51,20 @@
 
 <!--Call to action header-->
 <div id="callout">
-    <h1>My name is Lee, I'm a Front End Web Developer.</h1>
-    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-        et dolore
-        magna aliqua. Nec ultrices dui sapien eget mi proin. Ut consequat semper viverra nam libero justo laoreet sit
-        amet.</p>
-    <button type="button" class="btn-lg btn-outline-primary" data-toggle="modal" data-target="#modal-form">Build Me A
+    <h1 class="introHeading">My name is Lee, I'm a Front End Web Developer.</h1>
+    <p class="lead introPara">I am based in the North of England, offering bespoke online solutions for your business. If you are looking for a new website,
+    or you are looking to hire a Front End Web Developer, please get in touch. Thanks for visiting.</p>
+    <button type="button" class="main-btns btn-lg btn-outline-primary" data-toggle="modal" data-target="#modal-form">I Need A
         Website
     </button>
-    <button type="button" class="btn-lg btn-outline-primary">More About Me</button>
+    <button type="button" class="main-btns btn-lg btn-outline-primary">Get In Touch</button>
 </div>
 
 <!--Projects section-->
 <div id="projects">
     <h1>Projects</h1>
-    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-        et dolore
-        magna aliqua. Nec ultrices dui sapien eget mi proin. Ut consequat semper viverra nam libero justo laoreet sit
-        amet.</p>
+    <p class="lead">Take a look at my work below. I would love your website to be the next one in the list, so why not
+        <a href="" data-toggle="modal" data-target="#modal-form">get in touch</a> and get started!</p>
 
     <div class="projects-container">
 
@@ -76,17 +72,17 @@
             <div class="url-overlay">
                 <a href="http://www.cindymoody.art" target="_blank"><h5>cindymoody.art</h5></a>
             </div>
-            <img src="img/cindymock.jpg">
+            <img src="img/cindymock.jpg" alt="image of website rendered on computer and smartphone">
         </div>
 
         <div class="projects-item">
             <div class="project-detail">
                 <h5>Cindy Moody - Artist.</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore
-                    magna aliqua. Nec ultrices dui sapien eget mi proin. Ut consequat semper viverra nam libero justo
-                    laoreet sit
-                    amet.</p>
+                <p>When a talented local artist approached me to build her website, we agreed that the
+                    vibrant colours and presence
+                    of Cindy's paintings needed to take center stage.
+                    This fully responsive site features a large image gallery with interactive effects, bio sections
+                    section, and a contact form.</p>
             </div>
 
         </div>
@@ -99,81 +95,71 @@
 <!--Process section-->
 <div id="process">
     <h1>Process</h1>
-    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-        et dolore
-        magna aliqua. Nec ultrices dui sapien eget mi proin. Ut consequat semper viverra nam libero justo laoreet sit
-        amet.</p>
+    <p class="lead">There's an old saying that goes "A goal without a plan is just a wish" - So when approaching a new
+        project, a clear start to finish process is essential. From ideas and design, through development and testing,
+        to support
+        and bug fixing after launch, I've got you covered.</p>
+
+    <p class="lead">Hover over or click on the images below for more insights into my work flow.</p>
 
     <div class="process-container">
-
-        <!--1.listening 2.prototyping 3.build 4.responsive 5.testing 6.speed ops-->
 
         <div class="process-item">
 
             <div class="process-overlay">
                 <h5>Research.</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore
-                    magna aliqua. Nec ultrices dui sapien eget mi proin. Ut consequat semper viverra nam libero justo
-                    laoreet sit
-                    amet.</p>
+                <p>Understanding your business goals is key. What do you need your new website to
+                    achieve? Who are your customers? What do you want them to do whilst using your site? These are
+                    just some of the things to think about early on.</p>
             </div>
-            <img src="img/goals.jpg">
+            <img src="img/goals.jpg" alt="image of paper plan and a coffee">
         </div>
         <div class="process-item">
             <div class="process-overlay">
                 <h5>Prototype.</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore
-                    magna aliqua. Nec ultrices dui sapien eget mi proin. Ut consequat semper viverra nam libero justo
-                    laoreet sit
-                    amet.</p>
+                <p>From initial wireframe mock-ups to prototyping in the browser, you will quickly get a good idea of
+                    how the final product
+                    will look. I like to prototype in the browser in order to work flexibly to meet the demands of
+                    responsive design. </p>
             </div>
-            <img src="img/design.jpg">
+            <img src="img/design.jpg" alt="image of devices and wireframe on paper">
         </div>
         <div class="process-item">
             <div class="process-overlay">
                 <h5>Develop.</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore
-                    magna aliqua. Nec ultrices dui sapien eget mi proin. Ut consequat semper viverra nam libero justo
-                    laoreet sit
-                    amet.</p>
+                <p>With the design in place, time to get technical! Using the latest web technologies such as HTML5,
+                    CSS3 and SASS, JavaScript, jQuery and PHP, your site will come to life, and give your users the
+                    experience they deserve. </p>
             </div>
-            <img src="img/code.jpg">
+            <img src="img/code.jpg" alt="image of programming code">
         </div>
         <div class="process-item">
             <div class="process-overlay">
                 <h5>Responsive.</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore
-                    magna aliqua. Nec ultrices dui sapien eget mi proin. Ut consequat semper viverra nam libero justo
-                    laoreet sit
-                    amet.</p>
+                <p>With over half of web requests now coming from smarthpnes and tablets, it is essential that your site
+                    looks and feels good on all device types. Responsive design is about having ONE website coded in a
+                    way that
+                    looks good for everyone.</p>
             </div>
-            <img src="img/responsive.jpg">
+            <img src="img/responsive.jpg" alt="image of different sized devices">
         </div>
         <div class="process-item">
             <div class="process-overlay">
                 <h5>Test.</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore
-                    magna aliqua. Nec ultrices dui sapien eget mi proin. Ut consequat semper viverra nam libero justo
-                    laoreet sit
-                    amet.</p>
+                <p>Thankfully, support across different web browsers is getting much better. However, it is still
+                    important that your site is tested on
+                    multiple platforms to offer a consistent experience to your users.</p>
             </div>
-            <img src="img/test.jpg">
+            <img src="img/test.jpg" alt="image of person with some devices">
         </div>
         <div class="process-item">
             <div class="process-overlay">
                 <h5>Optimise.</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore
-                    magna aliqua. Nec ultrices dui sapien eget mi proin. Ut consequat semper viverra nam libero justo
-                    laoreet sit
-                    amet.</p>
+                <p>There are all sorts of stats flying around about how long a user will wait for a page to load before
+                    hitting the back button. Thankfully, there is lots we can do in the development phase to ensure your
+                    pages load as quickly as possible.</p>
             </div>
-            <img src="img/speed.jpg">
+            <img src="img/speed.jpg" alt="image of speedometer">
         </div>
 
 
@@ -185,10 +171,9 @@
 
 <div id="contact">
     <h1>Contact Me</h1>
-    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-        et dolore
-        magna aliqua. Nec ultrices dui sapien eget mi proin. Ut consequat semper viverra nam libero justo laoreet sit
-        amet.</p>
+    <p class="lead">If you have any quick comments or questions, please get in touch using the form below.
+        Alternatively, if you would like to start the ball rolling with your own website project
+        <a href="" data-toggle="modal" data-target="#modal-form">click here</a> to go to my project enquiry form.</p>
 
     <div class="form-container">
 
@@ -259,13 +244,14 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Project Requirements</h5>
+                <h3 class="modal-title" id="exampleModalLabel">Project Requirements</h3>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
             <div class="modal-body">
-                <p>This is where we start! Please scroll through the questions below and fill in as much info as you can
+                <p>So you need a website? This is where we start! Please scroll through the questions below and fill in
+                    as much info as you can
                     in the boxes. The more details you can give, the easier it is
                     to start planning the best solution for you! If you just wanted to send a quick message, close this
                     window and use the quick contact form on the main page.</p>
@@ -414,7 +400,6 @@
 <script src="js/interact.js" crossorigin="anonymous"></script>
 <script src="js/form.js" crossorigin="anonymous"></script>
 <script src="js/modal-form.js" crossorigin="anonymous"></script>
-
 
 
 </body>

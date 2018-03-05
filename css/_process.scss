@@ -1,12 +1,12 @@
 #process {
 
-  background: linear-gradient(rgba(31, 40, 51, 0.7), rgba(31, 40, 51, 0.8)), url('../img/board_sm.jpg') no-repeat;
+  background: linear-gradient(rgba(31, 40, 51, 0.8), rgba(31, 40, 51, 0.8)), url('../img/board_sm.jpg') no-repeat;
   background-size: cover;
   background-position: 50% 0;
   background-attachment: fixed;
 
   @media (min-width: 576px) {
-    background: linear-gradient(rgba(31, 40, 51, 0.7), rgba(31, 40, 51, 0.8)), url('../img/board_lg.jpg') no-repeat;
+    background: linear-gradient(rgba(31, 40, 51, 0.8), rgba(31, 40, 51, 0.8)), url('../img/board_lg.jpg') no-repeat;
     background-size: cover;
     background-position: 50% 0;
     background-attachment: fixed;
@@ -47,8 +47,9 @@
     }
 
     p {
-      font-size: 0.8rem;
-      margin-bottom: 0;
+      font-size: 0.9rem;
+      letter-spacing: 1px;
+      padding-top: 5px;
       padding-left: 20px;
       padding-right: 20px;
       opacity: 0;
