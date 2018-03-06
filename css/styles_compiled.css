@@ -253,7 +253,7 @@
       transition: opacity 1s 0.5s; }
   .process-item img {
     transition: transform 0.5s cubic-bezier(0.7, -0.4, 0.3, 1.4); }
-  .process-item .process-overlay:hover {
+  .process-item .process-overlay:hover, .process-item .process-overlay.touched {
     background-color: rgba(31, 40, 51, 0.85); }
   .process-item .process-overlay:hover + img {
     transform: scale(1.2); }
