@@ -184,9 +184,9 @@
     #projects .projects-item img {
       width: 100%;
       height: 100%; }
-    #projects .projects-item .url-overlay:hover, #projects .projects-item .url-overlay:active {
+    #projects .projects-item .url-overlay:hover, #projects .projects-item .url-overlay.touched {
       background-color: rgba(31, 40, 51, 0.8); }
-      #projects .projects-item .url-overlay:hover a, #projects .projects-item .url-overlay:active a {
+      #projects .projects-item .url-overlay:hover a, #projects .projects-item .url-overlay.touched a {
         opacity: 1; }
   @media (min-width: 576px) {
     #projects .projects-item {

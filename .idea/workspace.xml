@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="556f1408-311d-4e64-b406-d7e308f3c8f4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/css/.sass-cache/9972b6efdff862f4f00804e2bd1fe3c8fdc61123/_callout.scssc" afterPath="$PROJECT_DIR$/css/.sass-cache/9972b6efdff862f4f00804e2bd1fe3c8fdc61123/_callout.scssc" />
-      <change beforePath="$PROJECT_DIR$/css/.sass-cache/9972b6efdff862f4f00804e2bd1fe3c8fdc61123/_process.scssc" afterPath="$PROJECT_DIR$/css/.sass-cache/9972b6efdff862f4f00804e2bd1fe3c8fdc61123/_process.scssc" />
-      <change beforePath="$PROJECT_DIR$/css/_callout.scss" afterPath="$PROJECT_DIR$/css/_callout.scss" />
-      <change beforePath="$PROJECT_DIR$/css/_process.scss" afterPath="$PROJECT_DIR$/css/_process.scss" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/9972b6efdff862f4f00804e2bd1fe3c8fdc61123/_projects.scssc" afterPath="$PROJECT_DIR$/css/.sass-cache/9972b6efdff862f4f00804e2bd1fe3c8fdc61123/_projects.scssc" />
+      <change beforePath="$PROJECT_DIR$/css/_projects.scss" afterPath="$PROJECT_DIR$/css/_projects.scss" />
       <change beforePath="$PROJECT_DIR$/css/styles_compiled.css" afterPath="$PROJECT_DIR$/css/styles_compiled.css" />
       <change beforePath="$PROJECT_DIR$/css/styles_compiled.css.map" afterPath="$PROJECT_DIR$/css/styles_compiled.css.map" />
-      <change beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change beforePath="$PROJECT_DIR$/js/interact.js" afterPath="$PROJECT_DIR$/js/interact.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,38 +23,38 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+            <state relative-caret-position="329">
+              <caret line="62" column="19" lean-forward="true" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="blog.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog.php">
+      <file leaf-file-name="_projects.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/_projects.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="76" column="147" lean-forward="false" selection-start-line="76" selection-start-column="147" selection-end-line="76" selection-end-column="147" />
+            <state relative-caret-position="503">
+              <caret line="82" column="0" lean-forward="true" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_callout.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="interact.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/interact.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="645">
+              <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_callout.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/_callout.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_process.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/_process.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="615">
+              <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -105,16 +102,16 @@
         <option value="$PROJECT_DIR$/js/modal-form.js" />
         <option value="$PROJECT_DIR$/css/_footer.scss" />
         <option value="$PROJECT_DIR$/js/nav.js" />
-        <option value="$PROJECT_DIR$/js/interact.js" />
         <option value="$PROJECT_DIR$/css/_contact.scss" />
         <option value="$PROJECT_DIR$/css/styles.scss" />
         <option value="$PROJECT_DIR$/css/_nav.scss" />
-        <option value="$PROJECT_DIR$/css/_projects.scss" />
         <option value="$PROJECT_DIR$/css/_blog.scss" />
         <option value="$PROJECT_DIR$/blog.php" />
         <option value="$PROJECT_DIR$/css/_process.scss" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/css/_callout.scss" />
+        <option value="$PROJECT_DIR$/css/_projects.scss" />
+        <option value="$PROJECT_DIR$/js/interact.js" />
       </list>
     </option>
   </component>
@@ -257,12 +254,12 @@
       <workItem from="1520197178118" duration="5000" />
       <workItem from="1520199695848" duration="8392000" />
       <workItem from="1520258120226" duration="11825000" />
-      <workItem from="1520336835662" duration="3744000" />
+      <workItem from="1520336835662" duration="4387000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127896000" />
+    <option name="totallyTimeSpent" value="128539000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -555,13 +552,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/interact.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/_contact.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -595,6 +585,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
           <caret line="90" column="0" lean-forward="true" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -605,13 +596,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/_projects.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1185">
-          <caret line="79" column="0" lean-forward="true" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/_blog.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -619,10 +603,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/css/_process.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -635,18 +619,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/_process.scss">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="329">
+          <caret line="62" column="19" lean-forward="true" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/interact.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/_callout.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="615">
+          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/_projects.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="82" column="0" lean-forward="true" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
           <folding />
         </state>
       </provider>
