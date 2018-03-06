@@ -391,15 +391,15 @@
 
 
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="js/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+<script defer src="js/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>
-<script src="js/bootstrap.min.js" crossorigin="anonymous"></script>
-<script src="js/nav.js" crossorigin="anonymous"></script>
-<script src="js/interact.js" crossorigin="anonymous"></script>
-<script src="js/form.js" crossorigin="anonymous"></script>
-<script src="js/modal-form.js" crossorigin="anonymous"></script>
+<script defer src="js/bootstrap.min.js" crossorigin="anonymous"></script>
+<script defer src="js/nav.js" crossorigin="anonymous"></script>
+<script defer src="js/interact.js" crossorigin="anonymous"></script>
+<script defer src="js/form.js" crossorigin="anonymous"></script>
+<script defer src="js/modal-form.js" crossorigin="anonymous"></script>
 
 
 </body>

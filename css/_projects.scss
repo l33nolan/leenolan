@@ -70,7 +70,7 @@
     }
 
 
-    .url-overlay:hover {
+    .url-overlay:hover, .url-overlay:active {
       background-color: rgba(31, 40, 51, 0.8);
       a {
         opacity: 1;
