@@ -12,7 +12,7 @@
 // fixed background image on mobile workaround
 
 @media (max-width: 1024px) {
-  #process::before {
+  #process::after {
     content: '';
     display: block;
     background: linear-gradient(rgba(31, 40, 51, 0.8), rgba(31, 40, 51, 0.8)), url('../img/board_sm.jpg') no-repeat;

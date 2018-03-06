@@ -48,7 +48,6 @@
     <a href="blog.php">Blog</a>
 </nav>
 
-
 <!--Call to action header-->
 <div id="callout">
     <h1 class="introHeading">My name is Lee, I'm a Front End Web Developer.</h1>
