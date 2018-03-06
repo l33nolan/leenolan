@@ -74,7 +74,7 @@
 
         <figure>
             <h5>Google PageSpeed Insights <a target="_blank"
-                                             href="https://developers.google.com/speed">https://developers.google.com/speed/pagespeed/insights/</a>
+                                             href="https://developers.google.com/speed/pagespeed/insights">https://developers.google.com/speed/</a>
             </h5>
             <img src="img/googlepage.jpg"
                  alt="screenshot of google page speed insights">

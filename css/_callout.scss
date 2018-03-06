@@ -1,20 +1,19 @@
 #callout {
 
-  // responsive padding adjustments - overrides for callout banner
 
-  padding: 40px 20px 20px 20px;
-  background: linear-gradient(rgba(31, 40, 51, 0.8), rgba(31, 40, 51, 0.8)), url('../img/header_bg_sm.jpg') no-repeat;
-  background-size: cover;
-  background-position: 50% 0;
-  background-attachment: fixed;
-
-  @media (min-width: 576px) {
-    padding: 80px 30px 80px 30px;
+  @media (min-width: 1025px) {
     background: linear-gradient(rgba(31, 40, 51, 0.8), rgba(31, 40, 51, 0.8)), url('../img/header_bg_lg.jpg') no-repeat;
     background-size: cover;
     background-position: 50% 0;
     background-attachment: fixed;
+  }
 
+  // responsive padding adjustments
+
+  padding: 40px 20px 20px 20px;
+
+  @media (min-width: 576px) {
+    padding: 80px 30px 80px 30px;
   }
 
   @media (min-width: 768px) {
@@ -30,3 +29,22 @@
   }
 
 }
+
+// fixed background image on mobile workaround
+
+@media (max-width: 1024px) {
+  #callout::before {
+    content: '';
+    display: block;
+    background: linear-gradient(rgba(31, 40, 51, 0.8), rgba(31, 40, 51, 0.8)), url('../img/header_bg_sm.jpg') no-repeat;
+    background-size: cover;
+    background-position: 50% 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    z-index: -10;
+  }
+}
+
