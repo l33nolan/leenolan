@@ -36,8 +36,14 @@ $(function () {
 // catch touches on mobile to activate hover effects
 
 $(function () {
-    $('.url-overlay').bind('touchstart touchend', function(e) {
+    $('.url-overlay').on('click click', function(e) {
+        e.preventDefault();
+        $(this).toggleClass('touched');
+    });
+
+    $('.process-overlay').on('click click', function(e) {
         e.preventDefault();
         $(this).toggleClass('touched');
     });
 });
+
