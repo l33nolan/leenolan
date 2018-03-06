@@ -36,12 +36,12 @@ $(function () {
 // catch touches on mobile to activate hover effects
 
 $(function () {
-    $('.url-overlay').on('click click', function(e) {
+    $('.url-overlay').on('tap', function(e) {
         e.preventDefault();
         $(this).toggleClass('touched');
     });
 
-    $('.process-overlay').on('click click', function(e) {
+    $('.process-overlay').on('tap', function(e) {
         e.preventDefault();
         $(this).toggleClass('touched');
     });
