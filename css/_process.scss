@@ -1,7 +1,7 @@
 #process {
 
   @media (min-width: 1025px) {
-    background: linear-gradient(rgba(31, 40, 51, 0.8), rgba(31, 40, 51, 0.8)), url('../img/board_lg.jpg') no-repeat;
+    background: linear-gradient(rgba(31, 40, 51, 0.8), rgba(31, 40, 51, 0.8)), url('https://dnxi05fu5z434.cloudfront.net/board_lg.jpg') no-repeat;
     background-size: cover;
     background-position: 50% 0;
     background-attachment: fixed;
@@ -15,7 +15,7 @@
   #process::after {
     content: '';
     display: block;
-    background: linear-gradient(rgba(31, 40, 51, 0.8), rgba(31, 40, 51, 0.8)), url('../img/board_sm.jpg') no-repeat;
+    background: linear-gradient(rgba(31, 40, 51, 0.8), rgba(31, 40, 51, 0.8)), url('https://dnxi05fu5z434.cloudfront.net/board_sm.jpg') no-repeat;
     background-size: cover;
     background-position: 50% 0;
     top: 0;

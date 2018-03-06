@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://dnxi05fu5z434.cloudfront.net/bootstrap.min.css">
 
     <!--Fonts and custom CSS-->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i|Saira" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles_compiled.css" crossorigin="anonymous">
-    <script defer src="js/fontawesome.min.js"></script>
-    <script defer src="js/fa-brands.min.js"></script>
+    <link rel="stylesheet" href="https://dnxi05fu5z434.cloudfront.net/styles_compiled.css">
+    <script defer src="https://dnxi05fu5z434.cloudfront.net/fontawesome.min.js"></script>
+    <script defer src="https://dnxi05fu5z434.cloudfront.net/fa-brands.min.js"></script>
     <title>Lee Nolan</title>
 </head>
 
@@ -52,7 +52,7 @@
         <!--First Article-->
         <div class="row">
             <div class="head-img col-md-4">
-                <img src="img/me.jpg" alt="picture of Lee Nolan">
+                <img src="https://dnxi05fu5z434.cloudfront.net/me.jpg" alt="picture of Lee Nolan">
             </div>
             <div class="head-titles col-md-8">
                 <h3>Every (Milli)Second Counts.</h3>
@@ -76,7 +76,7 @@
             <h5>Google PageSpeed Insights <a target="_blank"
                                              href="https://developers.google.com/speed/pagespeed/insights">https://developers.google.com/speed/</a>
             </h5>
-            <img src="img/googlepage.jpg"
+            <img src="https://dnxi05fu5z434.cloudfront.net/googlepage.jpg"
                  alt="screenshot of google page speed insights">
             <figcaption>
                 Google PageSpeed Insights - a good starting point, but not without flaws.
@@ -94,7 +94,7 @@
 
         <figure>
             <h5>Pingdom Tools <a target="_blank" href="https://tools.pingdom.com/">https://tools.pingdom.com/</a></h5>
-            <img src="img/pingdom.jpg"
+            <img src="https://dnxi05fu5z434.cloudfront.net/pingdom.jpg"
                  alt="screenshot of google page speed insights">
             <figcaption>
                 Pingdom tools - nice UI, choice of locations, detailed analysis. Additional features such as DNS health.
@@ -103,7 +103,7 @@
 
         <figure>
             <h5>GTMetrix <a target="_blank" href="https://gtmetrix.com/">https://gtmetrix.com/</a></h5>
-            <img src="img/gtmetrix.jpg"
+            <img src="https://dnxi05fu5z434.cloudfront.net/gtmetrix.jpg"
                  alt="screenshot of google page speed insights">
             <figcaption>
                 GTMetrix, probably my favourite. Very detailed. Allows you to compare to other websites (such as your
@@ -113,7 +113,7 @@
 
         <figure>
             <h5>WebPagetest <a target="_blank" href="http://www.webpagetest.org/">http://www.webpagetest.org/</a></h5>
-            <img src="img/pingdom.jpg"
+            <img src="https://dnxi05fu5z434.cloudfront.net/webpagetest.jpg"
                  alt="screenshot of google page speed insights">
             <figcaption>
                 WebPagetest. Like the others, very detailed, choose browsers and locations, gives speed index
@@ -184,31 +184,30 @@
     <div class="row no-gutters">
         <div class="legal col-md-4">
             <ul class="footer-txt">
-                <li><a>Privacy</a></li>
-                <li><a>Terms of Use</a></li>
-                <li><a>Cookies</a></li>
+                <li><a href="privacy.html" target="_blank">Privacy</a></li>
+                <li><a href="tos.html" target="_blank">Terms of Use</a></li>
             </ul>
         </div>
         <div class="copyright col-md-4">
             <p>All rights reserved. Lee Nolan &copy;2018</p>
         </div>
         <div class="social col-md-4">
-            <a href="#"><i class="fab fa-github-square fa-3x"></i></a>
-            <a href="#"><i class="fab fa-linkedin fa-3x"></i></a>
-            <a href="#"><i class="fab fa-twitter-square fa-3x"></i></a>
+            <a href="https://github.com/n0lanl33?tab=repositories" target="_blank"><i class="fab fa-github-square fa-3x"></i></a>
+            <a href="https://www.linkedin.com/in/lee-nolan-0b670815a/" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
+            <a href="https://twitter.com/LeePNolan" target="_blank"><i class="fab fa-twitter-square fa-3x"></i></a>
         </div>
     </div>
 </footer>
 
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script defer src="js/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
+<script defer src="https://dnxi05fu5z434.cloudfront.net/jquery-3.3.1.min.js"></script>
 <script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>
-<script defer src="js/bootstrap.min.js" crossorigin="anonymous"></script>
-<script defer src="js/nav.js" crossorigin="anonymous"></script>
-<script defer src="js/form.js" crossorigin="anonymous"></script>
-<script defer src="js/modal-form.js" crossorigin="anonymous"></script>
+<script defer src="https://dnxi05fu5z434.cloudfront.net/bootstrap.min.js"></script>
+<script defer src="https://dnxi05fu5z434.cloudfront.net/nav.js"></script>
+<script defer src="https://dnxi05fu5z434.cloudfront.net/form.js"></script>
+<script defer src="https://dnxi05fu5z434.cloudfront.net/modal-form.js"></script>
 
 </body>
 </html>

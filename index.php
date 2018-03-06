@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://dnxi05fu5z434.cloudfront.net/bootstrap.min.css">
 
     <!--Fonts and custom CSS-->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i|Saira" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles_compiled.css" crossorigin="anonymous">
-    <script defer src="js/fontawesome.min.js"></script>
-    <script defer src="js/fa-brands.min.js"></script>
+    <link rel="stylesheet" href="https://dnxi05fu5z434.cloudfront.net/styles_compiled.css">
+    <script defer src="https://dnxi05fu5z434.cloudfront.net/fontawesome.min.js"></script>
+    <script defer src="https://dnxi05fu5z434.cloudfront.net/fa-brands.min.js"></script>
 
     <title>Lee Nolan</title>
 </head>
@@ -51,12 +51,13 @@
 <!--Call to action header-->
 <div id="callout">
     <h1 class="introHeading">My name is Lee, I'm a Front End Web Developer.</h1>
-    <p class="lead introPara">I am based in the North of England, offering bespoke online solutions for your business. If you are looking for a new website,
-    or you are looking to hire a Front End Web Developer, please get in touch. Thanks for visiting.</p>
-    <button type="button" class="main-btns btn-lg btn-outline-primary" data-toggle="modal" data-target="#modal-form">I Need A
+    <p class="lead introPara">I am based in the North of England, offering bespoke online solutions for your business.
+        If you are looking for a new website,
+        or you are looking to hire a Front End Web Developer, please get in touch. Thanks for visiting.</p>
+    <button type="button" class="main-btns btn-lg btn-outline-primary" data-toggle="modal" data-target="#modal-form">I
+        Need A
         Website
     </button>
-    <button type="button" class="main-btns btn-lg btn-outline-primary">Get In Touch</button>
 </div>
 
 <!--Projects section-->
@@ -71,17 +72,17 @@
             <div class="url-overlay">
                 <a href="http://www.cindymoody.art" target="_blank"><h5>cindymoody.art</h5></a>
             </div>
-            <img src="img/cindymock.jpg" alt="image of website rendered on computer and smartphone">
+            <img src="https://dnxi05fu5z434.cloudfront.net/cindymock.jpg" alt="image of website rendered on computer and smartphone">
         </div>
 
         <div class="projects-item">
             <div class="project-detail">
                 <h5>Cindy Moody - Artist.</h5>
-                <p>When a talented local artist approached me to build her website, we agreed that the
-                    vibrant colours and presence
-                    of Cindy's paintings needed to take center stage.
-                    This fully responsive site features a large image gallery with interactive effects, bio sections
-                    section, and a contact form.</p>
+                <p> When a talented local artist approached me to build her website, we agreed that the
+                    vibrant colours and presence of Cindy's paintings needed to take center stage. This fully responsive
+                    site was built with HTML,
+                    CSS/SASS, Bootstrap for the grid layout, jQuery, and PHP for the form processing.
+                </p>
             </div>
 
         </div>
@@ -111,7 +112,7 @@
                     achieve? Who are your customers? What do you want them to do whilst using your site? These are
                     just some of the things to think about early on.</p>
             </div>
-            <img src="img/goals.jpg" alt="image of paper plan and a coffee">
+            <img src="https://dnxi05fu5z434.cloudfront.net/goals.jpg" alt="image of paper plan and a coffee">
         </div>
         <div class="process-item">
             <div class="process-overlay">
@@ -121,7 +122,7 @@
                     will look. I like to prototype in the browser in order to work flexibly to meet the demands of
                     responsive design. </p>
             </div>
-            <img src="img/design.jpg" alt="image of devices and wireframe on paper">
+            <img src="https://dnxi05fu5z434.cloudfront.net/design.jpg" alt="image of devices and wireframe on paper">
         </div>
         <div class="process-item">
             <div class="process-overlay">
@@ -130,17 +131,16 @@
                     CSS3 and SASS, JavaScript, jQuery and PHP, your site will come to life, and give your users the
                     experience they deserve. </p>
             </div>
-            <img src="img/code.jpg" alt="image of programming code">
+            <img src="https://dnxi05fu5z434.cloudfront.net/code.jpg" alt="image of programming code">
         </div>
         <div class="process-item">
             <div class="process-overlay">
                 <h5>Responsive.</h5>
-                <p>With over half of web requests now coming from smarthpnes and tablets, it is essential that your site
+                <p>With over half of web requests now coming from smartphones and tablets, it is essential that your site
                     looks and feels good on all device types. Responsive design is about having ONE website coded in a
-                    way that
-                    looks good for everyone.</p>
+                    way that looks good for everyone.</p>
             </div>
-            <img src="img/responsive.jpg" alt="image of different sized devices">
+            <img src="https://dnxi05fu5z434.cloudfront.net/responsive.jpg" alt="image of different sized devices">
         </div>
         <div class="process-item">
             <div class="process-overlay">
@@ -149,7 +149,7 @@
                     important that your site is tested on
                     multiple platforms to offer a consistent experience to your users.</p>
             </div>
-            <img src="img/test.jpg" alt="image of person with some devices">
+            <img src="https://dnxi05fu5z434.cloudfront.net/test.jpg" alt="image of person with some devices">
         </div>
         <div class="process-item">
             <div class="process-overlay">
@@ -158,7 +158,7 @@
                     hitting the back button. Thankfully, there is lots we can do in the development phase to ensure your
                     pages load as quickly as possible.</p>
             </div>
-            <img src="img/speed.jpg" alt="image of speedometer">
+            <img src="https://dnxi05fu5z434.cloudfront.net/speed.jpg" alt="image of speedometer">
         </div>
 
 
@@ -220,18 +220,17 @@
     <div class="row no-gutters">
         <div class="legal col-md-4">
             <ul class="footer-txt">
-                <li><a>Privacy</a></li>
-                <li><a>Terms of Use</a></li>
-                <li><a>Cookies</a></li>
+                <li><a href="privacy.html" target="_blank">Privacy</a></li>
+                <li><a href="tos.html" target="_blank">Terms of Use</a></li>
             </ul>
         </div>
         <div class="copyright col-md-4">
             <p>All rights reserved. Lee Nolan &copy;2018</p>
         </div>
         <div class="social col-md-4">
-            <a href="#"><i class="fab fa-github-square fa-3x"></i></a>
-            <a href="#"><i class="fab fa-linkedin fa-3x"></i></a>
-            <a href="#"><i class="fab fa-twitter-square fa-3x"></i></a>
+            <a href="https://github.com/n0lanl33?tab=repositories" target="_blank"><i class="fab fa-github-square fa-3x"></i></a>
+            <a href="https://www.linkedin.com/in/lee-nolan-0b670815a/" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
+            <a href="https://twitter.com/LeePNolan" target="_blank"><i class="fab fa-twitter-square fa-3x"></i></a>
         </div>
     </div>
 </footer>
@@ -383,22 +382,21 @@
                 <button type="button" class="btn-lg btn-outline-primary" data-dismiss="modal">Close</button>
 
             </div>
-
         </div>
     </div>
 </div>
 
 
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script defer src="js/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
+<script defer src="https://dnxi05fu5z434.cloudfront.net/jquery-3.3.1.min.js"></script>
 <script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>
-<script defer src="js/bootstrap.min.js" crossorigin="anonymous"></script>
-<script defer src="js/nav.js" crossorigin="anonymous"></script>
-<script defer src="js/interact.js" crossorigin="anonymous"></script>
-<script defer src="js/form.js" crossorigin="anonymous"></script>
-<script defer src="js/modal-form.js" crossorigin="anonymous"></script>
+<script defer src="https://dnxi05fu5z434.cloudfront.net/bootstrap.min.js"></script>
+<script defer src="https://dnxi05fu5z434.cloudfront.net/nav.js"></script>
+<script defer src="https://dnxi05fu5z434.cloudfront.net/interact.js"></script>
+<script defer src="https://dnxi05fu5z434.cloudfront.net/form.js"></script>
+<script defer src="https://dnxi05fu5z434.cloudfront.net/modal-form.js"></script>
 
 
 </body>

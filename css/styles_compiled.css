@@ -1,5 +1,5 @@
 #callout {
-  background: linear-gradient(rgba(31, 40, 51, 0.8), rgba(31, 40, 51, 0.8)), url("../img/header_bg_lg.jpg") no-repeat;
+  background: linear-gradient(rgba(31, 40, 51, 0.8), rgba(31, 40, 51, 0.8)), url("https://dnxi05fu5z434.cloudfront.net/header_bg_lg.jpg") no-repeat;
   background-size: cover;
   background-position: 50% 0;
   background-attachment: scroll;
@@ -7,7 +7,7 @@
   padding: 40px 20px 20px 20px; }
   @media (min-width: 576px) {
     #callout {
-      background: linear-gradient(rgba(31, 40, 51, 0.8), rgba(31, 40, 51, 0.8)), url("../img/header_bg_lg.jpg") no-repeat;
+      background: linear-gradient(rgba(31, 40, 51, 0.8), rgba(31, 40, 51, 0.8)), url("https://dnxi05fu5z434.cloudfront.net/header_bg_lg.jpg") no-repeat;
       background-size: cover;
       background-position: 50% 0;
       background-attachment: scroll;
@@ -198,7 +198,7 @@
 
 @media (min-width: 1025px) {
   #process {
-    background: linear-gradient(rgba(31, 40, 51, 0.8), rgba(31, 40, 51, 0.8)), url("../img/board_lg.jpg") no-repeat;
+    background: linear-gradient(rgba(31, 40, 51, 0.8), rgba(31, 40, 51, 0.8)), url("https://dnxi05fu5z434.cloudfront.net/board_lg.jpg") no-repeat;
     background-size: cover;
     background-position: 50% 0;
     background-attachment: fixed; } }
@@ -207,7 +207,7 @@
   #process::after {
     content: '';
     display: block;
-    background: linear-gradient(rgba(31, 40, 51, 0.8), rgba(31, 40, 51, 0.8)), url("../img/board_sm.jpg") no-repeat;
+    background: linear-gradient(rgba(31, 40, 51, 0.8), rgba(31, 40, 51, 0.8)), url("https://dnxi05fu5z434.cloudfront.net/board_sm.jpg") no-repeat;
     background-size: cover;
     background-position: 50% 0;
     top: 0;
@@ -269,20 +269,22 @@
     color: #d1fefa; }
 
 footer {
-  padding: 20px 20px;
+  padding: 20px 20px 40px 20px;
   background-color: #1f2833; }
   @media (min-width: 576px) {
     footer {
-      padding: 20px 30px 20px 30px; } }
+      padding: 20px 30px 40px 30px; } }
   @media (min-width: 768px) {
     footer {
-      padding: 20px 50px 20px 50px; } }
+      padding: 20px 50px 40px 50px; } }
   @media (min-width: 992px) {
     footer {
-      padding: 20px 140px 20px 140px; } }
+      padding: 60px 140px 60px 140px; } }
   footer ul {
     list-style: none;
     padding-left: 0; }
+    footer ul a:hover {
+      color: #66fcf1; }
   footer .copyright {
     text-align: center; }
     footer .copyright p {
@@ -386,7 +388,8 @@ p {
   padding-bottom: 20px; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #c5c6c7; }
 
 a:hover, a:active, a:visited, a:link {
   text-decoration: none;
