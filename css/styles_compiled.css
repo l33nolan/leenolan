@@ -253,11 +253,11 @@
       transition: opacity 1s 0.5s; }
   .process-item img {
     transition: transform 0.5s cubic-bezier(0.7, -0.4, 0.3, 1.4); }
-  .process-item .process-overlay:hover, .process-item .process-overlay.touched {
+  .process-item .process-overlay:hover, .process-item .process-overlay.ptouched {
     background-color: rgba(31, 40, 51, 0.85); }
-  .process-item .process-overlay:hover + img, .process-item .process-overlay.touched + img {
+  .process-item .process-overlay:hover + img, .process-item .process-overlay.ptouched + img {
     transform: scale(1.2); }
-  .process-item .process-overlay:hover p, .process-item .process-overlay:hover h5, .process-item .process-overlay.touched p, .process-item .process-overlay.touched h5 {
+  .process-item .process-overlay:hover p, .process-item .process-overlay:hover h5, .process-item .process-overlay.ptouched p, .process-item .process-overlay.ptouched h5 {
     opacity: 1; }
 
 #contact {
