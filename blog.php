@@ -209,6 +209,16 @@
 <script defer src="https://dnxi05fu5z434.cloudfront.net/nav.js"></script>
 <script defer src="https://dnxi05fu5z434.cloudfront.net/form.js"></script>
 <script defer src="https://dnxi05fu5z434.cloudfront.net/modal-form.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115337383-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-115337383-1');
+</script>
+
 
 </body>
 </html>

@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="556f1408-311d-4e64-b406-d7e308f3c8f4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/blog.php" afterPath="$PROJECT_DIR$/blog.php" />
-      <change beforePath="$PROJECT_DIR$/css/.sass-cache/9972b6efdff862f4f00804e2bd1fe3c8fdc61123/_projects.scssc" afterPath="$PROJECT_DIR$/css/.sass-cache/9972b6efdff862f4f00804e2bd1fe3c8fdc61123/_projects.scssc" />
-      <change beforePath="$PROJECT_DIR$/css/_projects.scss" afterPath="$PROJECT_DIR$/css/_projects.scss" />
-      <change beforePath="$PROJECT_DIR$/css/styles_compiled.css" afterPath="$PROJECT_DIR$/css/styles_compiled.css" />
-      <change beforePath="$PROJECT_DIR$/css/styles_compiled.css.map" afterPath="$PROJECT_DIR$/css/styles_compiled.css.map" />
-      <change beforePath="$PROJECT_DIR$/img/webpagetest.jpg" afterPath="" />
       <change beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change beforePath="$PROJECT_DIR$/js/interact.js" afterPath="$PROJECT_DIR$/js/interact_v2.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,11 +17,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="blog.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="623">
+              <caret line="411" column="0" lean-forward="true" selection-start-line="411" selection-start-column="0" selection-end-line="411" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blog.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2640">
-              <caret line="176" column="10" lean-forward="true" selection-start-line="176" selection-start-column="10" selection-end-line="176" selection-end-column="10" />
+            <state relative-caret-position="668">
+              <caret line="220" column="0" lean-forward="true" selection-start-line="220" selection-start-column="0" selection-end-line="220" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -91,8 +94,8 @@
         <option value="$PROJECT_DIR$/js/nav_min.js" />
         <option value="$PROJECT_DIR$/css/_projects.scss" />
         <option value="$PROJECT_DIR$/js/interact.js" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/blog.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -233,12 +236,12 @@
       <workItem from="1520258120226" duration="11825000" />
       <workItem from="1520336835662" duration="7973000" />
       <workItem from="1520356243583" duration="4515000" />
-      <workItem from="1520435826872" duration="4346000" />
+      <workItem from="1520435826872" duration="4504000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140986000" />
+    <option name="totallyTimeSpent" value="141144000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -607,18 +610,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/blog.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="65" column="102" lean-forward="true" selection-start-line="65" selection-start-column="102" selection-end-line="65" selection-end-column="102" />
+        <state relative-caret-position="668">
+          <caret line="220" column="0" lean-forward="true" selection-start-line="220" selection-start-column="0" selection-end-line="220" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2640">
-          <caret line="176" column="10" lean-forward="true" selection-start-line="176" selection-start-column="10" selection-end-line="176" selection-end-column="10" />
+        <state relative-caret-position="623">
+          <caret line="411" column="0" lean-forward="true" selection-start-line="411" selection-start-column="0" selection-end-line="411" selection-end-column="0" />
           <folding />
         </state>
       </provider>
