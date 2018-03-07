@@ -169,6 +169,7 @@
     background-color: rgba(31, 40, 51, 0.2);
     transition: background-color  0.7s ease-in-out; }
     #projects .url-overlay a {
+      z-index: 300;
       color: #66fcf1;
       text-decoration: none;
       opacity: 0;

@@ -51,12 +51,11 @@
 <!--Call to action header-->
 <div id="callout">
     <h1 class="introHeading">My name is Lee, I'm a Front End Web Developer.</h1>
-    <p class="lead introPara">I am based in the North of England, offering bespoke online solutions for your business.
-        If you are looking for a new website,
-        or you are looking to hire a Front End Web Developer, please get in touch. Thanks for visiting.</p>
+    <p class="lead introPara">I am based in the North of England, building attractive websites for all types of
+        business. If you are looking for a new website, or you are looking to hire a Front End Web Developer, please get
+        in touch. Thanks for visiting.</p>
     <button type="button" class="main-btns btn-lg btn-outline-primary" data-toggle="modal" data-target="#modal-form">I
-        Need A
-        Website
+        Need A Website
     </button>
 </div>
 
@@ -72,7 +71,8 @@
             <div class="url-overlay">
                 <a href="http://www.cindymoody.art" target="_blank"><h5>cindymoody.art</h5></a>
             </div>
-            <img src="https://dnxi05fu5z434.cloudfront.net/cindymock.jpg" alt="image of website rendered on computer and smartphone">
+            <img src="https://dnxi05fu5z434.cloudfront.net/cindymock.jpg"
+                 alt="image of website rendered on computer and smartphone">
         </div>
 
         <div class="projects-item">
@@ -83,6 +83,7 @@
                     site was built with HTML,
                     CSS/SASS, Bootstrap for the grid layout, jQuery, and PHP for the form processing.
                 </p>
+                <p>Visit this site here - <a href="http://www.cindymoody.art" target="_blank">www.cindymoody.art</a></p>
             </div>
 
         </div>
@@ -100,7 +101,7 @@
         to support
         and bug fixing after launch, I've got you covered.</p>
 
-    <p class="lead">Hover over or click on the images below for more insights into my work flow.</p>
+    <p class="lead">Hover over or click on the images below for insights into my work flow.</p>
 
     <div class="process-container">
 
@@ -119,7 +120,7 @@
                 <h5>Prototype.</h5>
                 <p>From initial wireframe mock-ups to prototyping in the browser, you will quickly get a good idea of
                     how the final product
-                    will look. I like to prototype in the browser in order to work flexibly to meet the demands of
+                    will look. I like to prototype in the browser, working flexibly to meet the demands of
                     responsive design. </p>
             </div>
             <img src="https://dnxi05fu5z434.cloudfront.net/design.jpg" alt="image of devices and wireframe on paper">
@@ -127,18 +128,18 @@
         <div class="process-item">
             <div class="process-overlay">
                 <h5>Develop.</h5>
-                <p>With the design in place, time to get technical! Using the latest web technologies such as HTML5,
-                    CSS3 and SASS, JavaScript, jQuery and PHP, your site will come to life, and give your users the
-                    experience they deserve. </p>
+                <p> Using the latest web technologies such as HTML5,
+                    CSS3 and SASS, JavaScript, jQuery and PHP, your site will come to life, with all of the
+                    functionality you need. </p>
             </div>
             <img src="https://dnxi05fu5z434.cloudfront.net/code.jpg" alt="image of programming code">
         </div>
         <div class="process-item">
             <div class="process-overlay">
                 <h5>Responsive.</h5>
-                <p>With over half of web requests now coming from smartphones and tablets, it is essential that your site
-                    looks and feels good on all device types. Responsive design is about having ONE website coded in a
-                    way that looks good for everyone.</p>
+                <p>Over half of web requests now come from smartphones and tablets. It is essential that your site
+                    looks good and works on all devices. Responsive design is about having ONE website that looks good
+                    for everyone.</p>
             </div>
             <img src="https://dnxi05fu5z434.cloudfront.net/responsive.jpg" alt="image of different sized devices">
         </div>
@@ -154,8 +155,8 @@
         <div class="process-item">
             <div class="process-overlay">
                 <h5>Optimise.</h5>
-                <p>There are all sorts of stats flying around about how long a user will wait for a page to load before
-                    hitting the back button. Thankfully, there is lots we can do in the development phase to ensure your
+                <p>Nobody wants to use a website that is slow. You could even lose customers. Thankfully, there is lots
+                    we can do in the development phase to ensure your
                     pages load as quickly as possible.</p>
             </div>
             <img src="https://dnxi05fu5z434.cloudfront.net/speed.jpg" alt="image of speedometer">
@@ -228,8 +229,10 @@
             <p>All rights reserved. Lee Nolan &copy;2018</p>
         </div>
         <div class="social col-md-4">
-            <a href="https://github.com/n0lanl33?tab=repositories" target="_blank"><i class="fab fa-github-square fa-3x"></i></a>
-            <a href="https://www.linkedin.com/in/lee-nolan-0b670815a/" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
+            <a href="https://github.com/n0lanl33?tab=repositories" target="_blank"><i
+                        class="fab fa-github-square fa-3x"></i></a>
+            <a href="https://www.linkedin.com/in/lee-nolan-0b670815a/" target="_blank"><i
+                        class="fab fa-linkedin fa-3x"></i></a>
             <a href="https://twitter.com/LeePNolan" target="_blank"><i class="fab fa-twitter-square fa-3x"></i></a>
         </div>
     </div>
@@ -394,7 +397,7 @@
         crossorigin="anonymous"></script>
 <script defer src="https://dnxi05fu5z434.cloudfront.net/bootstrap.min.js"></script>
 <script defer src="https://dnxi05fu5z434.cloudfront.net/nav.js"></script>
-<script defer src="https://dnxi05fu5z434.cloudfront.net/interact.js"></script>
+<script defer src="https://dnxi05fu5z434.cloudfront.net/interact_v2.js"></script>
 <script defer src="https://dnxi05fu5z434.cloudfront.net/form.js"></script>
 <script defer src="https://dnxi05fu5z434.cloudfront.net/modal-form.js"></script>
 

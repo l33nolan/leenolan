@@ -37,7 +37,7 @@ $(function () {
 
 $(function () {
     $('.url-overlay').on('click click', function(e) {
-        e.preventDefault();
+        // e.preventDefault();
         $(this).toggleClass('touched');
     });
 
