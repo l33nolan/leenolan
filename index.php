@@ -10,7 +10,7 @@
 
     <!--Fonts and custom CSS-->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i|Saira" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles_compiled_v2.css">
+    <link rel="stylesheet" href="https://dnxi05fu5z434.cloudfront.net/styles_compiled_v2.css">
     <script defer src="https://dnxi05fu5z434.cloudfront.net/fontawesome.min.js"></script>
     <script defer src="https://dnxi05fu5z434.cloudfront.net/fa-brands.min.js"></script>
 
