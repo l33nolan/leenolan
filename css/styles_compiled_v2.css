@@ -178,7 +178,6 @@
       color: #d1fefa; }
   #projects .projects-item {
     width: 335px;
-    height: 251px;
     margin-top: 20px;
     overflow: hidden;
     position: relative; }
@@ -291,6 +290,7 @@ footer {
     footer .copyright p {
       padding: 0; }
   footer .social {
+    margin-top: 15px;
     text-align: right; }
     footer .social a {
       padding-left: 5px;
@@ -429,4 +429,4 @@ a:hover, a:active, a:visited, a:link {
   background-color: #45a29e;
   transition: 0.4s ease-in; }
 
-/*# sourceMappingURL=styles_compiled.css.map */
+/*# sourceMappingURL=styles_compiled_v2.csscss.map */
