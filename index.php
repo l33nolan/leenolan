@@ -57,6 +57,7 @@
     <button type="button" class="main-btns btn-lg btn-outline-primary" data-toggle="modal" data-target="#modal-form">I
         Need A Website
     </button>
+    <button type="button" class="main-btns btn-lg btn-outline-primary" onclick="location.href='blog.php';">Read Blog</button>
 </div>
 
 <!--Projects section-->
