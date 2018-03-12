@@ -312,6 +312,10 @@ footer {
 .modal-footer {
   background-color: #1f2833; }
 
+.modal {
+  -webkit-overflow-scrolling: touch;
+  overflow-scrolling: touch; }
+
 .close {
   color: #66fcf1;
   opacity: 1; }
@@ -433,4 +437,4 @@ a:hover, a:active, a:visited, a:link {
   background-color: #45a29e;
   transition: 0.4s ease-in; }
 
-/*# sourceMappingURL=styles_compiled_v5.css.map */
+/*# sourceMappingURL=styles_compiled_v6.css.map */
