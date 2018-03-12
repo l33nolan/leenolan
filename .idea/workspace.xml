@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="556f1408-311d-4e64-b406-d7e308f3c8f4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.slugignore" afterPath="$PROJECT_DIR$/.slugignore" />
-      <change beforePath="$PROJECT_DIR$/css/.sass-cache/9972b6efdff862f4f00804e2bd1fe3c8fdc61123/_modal.scssc" afterPath="$PROJECT_DIR$/css/.sass-cache/9972b6efdff862f4f00804e2bd1fe3c8fdc61123/_modal.scssc" />
       <change beforePath="$PROJECT_DIR$/css/_modal.scss" afterPath="$PROJECT_DIR$/css/_modal.scss" />
-      <change beforePath="$PROJECT_DIR$/css/styles_compiled_v3.css" afterPath="$PROJECT_DIR$/css/styles_compiled_v3.css" />
-      <change beforePath="$PROJECT_DIR$/css/styles_compiled_v3.css.map" afterPath="$PROJECT_DIR$/css/styles_compiled_v3.css.map" />
-      <change beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -38,11 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".slugignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".slugignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.slugignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -51,14 +46,14 @@
       <file leaf-file-name="modal-form_v2.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/modal-form_v2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="43" column="30" lean-forward="true" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
+            <state relative-caret-position="698">
+              <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_modal.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_modal.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/_modal.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
@@ -134,9 +129,9 @@
         <option value="$PROJECT_DIR$/css/styles.scss" />
         <option value="$PROJECT_DIR$/js/modal-form.js" />
         <option value="$PROJECT_DIR$/blog.php" />
-        <option value="$PROJECT_DIR$/css/_modal.scss" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/.slugignore" />
+        <option value="$PROJECT_DIR$/css/_modal.scss" />
       </list>
     </option>
   </component>
@@ -281,12 +276,12 @@
       <workItem from="1520435826872" duration="4582000" />
       <workItem from="1520552140378" duration="1436000" />
       <workItem from="1520698386143" duration="647000" />
-      <workItem from="1520855066594" duration="2254000" />
+      <workItem from="1520855066594" duration="2391000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145559000" />
+    <option name="totallyTimeSpent" value="145696000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -697,22 +692,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/_modal.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/modal-form_v2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="43" column="30" lean-forward="true" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6030">
@@ -731,7 +710,23 @@
     <entry file="file://$PROJECT_DIR$/.slugignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/modal-form_v2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="698">
+          <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/_modal.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
       </provider>

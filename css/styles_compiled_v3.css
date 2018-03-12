@@ -321,7 +321,7 @@ footer {
 
 .stopScroll {
   overflow: hidden;
-  position: relative; }
+  position: fixed; }
 
 #blog .articles {
   max-width: 700px;
