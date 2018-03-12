@@ -12,3 +12,13 @@
 .close:hover {
   color: $navHighlight;
 }
+
+
+// stop modal window scrolling background on mobile
+
+.stopScroll {
+  overflow: hidden;
+  height: 100%;
+  position: relative;
+}
+

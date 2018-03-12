@@ -54,3 +54,15 @@ $(function() {
         });
     });
 });
+
+
+// stop body scrolling behind modal - iOS bug
+
+$('.modal').on('shown.bs.modal', function () {
+    $('body').addClass('stopScroll');
+});
+
+$('.modal').on('hidden.bs.modal', function () {
+    $('body').removeClass('stopScroll');
+});
+

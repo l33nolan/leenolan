@@ -319,6 +319,11 @@ footer {
 .close:hover {
   color: #d1fefa; }
 
+.stopScroll {
+  overflow: hidden;
+  height: 100%;
+  position: relative; }
+
 #blog .articles {
   max-width: 700px;
   margin: 0 auto;
@@ -429,4 +434,4 @@ a:hover, a:active, a:visited, a:link {
   background-color: #45a29e;
   transition: 0.4s ease-in; }
 
-/*# sourceMappingURL=styles_compiled_v2.csscss.map */
+/*# sourceMappingURL=styles_compiled_v3.css.map */
