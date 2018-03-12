@@ -76,18 +76,17 @@
     transition: transform .5s cubic-bezier(0.7, -0.4, .3, 1.4);
   }
 
-  .process-overlay:hover, .process-overlay.touched {
+  .process-overlay.trans {
     background-color: rgba(31, 40, 51, 0.85);
   }
 
-  .process-overlay:hover + img, .process-overlay.touched + img {
+  .process-overlay.trans + img {
     transform: scale(1.2);
   }
 
-  .process-overlay:hover p, .process-overlay:hover h5, .process-overlay.touched p, .process-overlay.touched h5 {
+  .process-overlay.trans p, .process-overlay.trans h5 {
     opacity: 1;
   }
-
 }
 
 
