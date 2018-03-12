@@ -321,7 +321,6 @@ footer {
 
 .stopScroll {
   overflow: hidden;
-  height: 100%;
   position: relative; }
 
 #blog .articles {

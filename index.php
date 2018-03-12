@@ -10,7 +10,7 @@
 
     <!--Fonts and custom CSS-->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i|Saira" rel="stylesheet">
-    <link rel="stylesheet" href="https://dnxi05fu5z434.cloudfront.net/styles_compiled_v3.css">
+    <link rel="stylesheet" href="css/styles_compiled_v3.css">
     <script defer src="https://dnxi05fu5z434.cloudfront.net/fontawesome.min.js"></script>
     <script defer src="https://dnxi05fu5z434.cloudfront.net/fa-brands.min.js"></script>
 
@@ -400,7 +400,7 @@
 <script defer src="https://dnxi05fu5z434.cloudfront.net/nav.js"></script>
 <script defer src="https://dnxi05fu5z434.cloudfront.net/interact_v2.js"></script>
 <script defer src="https://dnxi05fu5z434.cloudfront.net/form.js"></script>
-<script defer src="https://dnxi05fu5z434.cloudfront.net/modal-form_v2.js"></script>
+<script defer src="js/modal-form_v2.js"></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115337383-1"></script>
 <script>
