@@ -20,19 +20,7 @@ $(function () {
     });
 });
 
-// fade in hamburger
-$(function () {
-    $(window).scroll(function () {
-        // set distance user needs to scroll before we fadeIn icon
-        if ($(this).scrollTop() > 100) {
-            $('#nav-icon').fadeIn();
-        } else {
-            $('#nav-icon').fadeOut();
-        }
-    });
 
-
-});
 
 
 // hamburger animation and toggle mobile nav menu
